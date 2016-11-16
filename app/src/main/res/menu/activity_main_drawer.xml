@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/divider_home">
+        <menu>
+            <item
+                android:id="@+id/nav_first_layout"
+                android:icon="@drawable/ic_menu_homes"
+                android:title="@string/home" />
+
+        </menu>
+    </item>
+
+    <item android:title="@string/divider_massimo" >
+        <menu>
+            <item
+                android:id="@+id/nav_second_layout"
+                android:icon="@drawable/ic_menu_id"
+                android:title="@string/identity" />
+            <item
+                android:id="@+id/nav_third_layout"
+                android:icon="@drawable/ic_menu_chart"
+                android:title="@string/stat" />
+            <item
+                android:id="@+id/nav_fourth_layout"
+                android:icon="@drawable/ic_menu_personality"
+                android:title="@string/personality" />
+            <item
+                android:id="@+id/nav_ninth_layout"
+                android:icon="@drawable/ic_menu_movie"
+                android:title="@string/trailer" />
+        </menu>
+    </item>
+
+
+
+    <item android:title="@string/divider_bradley">
+        <menu>
+            <item
+                android:id="@+id/nav_fifth_layout"
+                android:icon="@drawable/ic_menu_id"
+                android:title="@string/identity" />
+            <item
+                android:id="@+id/nav_sixth_layout"
+                android:icon="@drawable/ic_menu_chart"
+                android:title="@string/stat" />
+            <item
+                android:id="@+id/nav_seventh_layout"
+                android:icon="@drawable/ic_menu_personality"
+                android:title="@string/personality" />
+            <item
+                android:id="@+id/nav_eighth_layout"
+                android:icon="@drawable/ic_menu_movie"
+                android:title="@string/trailer" />
+        </menu>
+    </item>
+
+</menu>
