@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity
                 getSupportActionBar().setSubtitle(item.getTitle());
                 fragmentManager.beginTransaction()
                         .replace(R.id.content_frame,
-                                new BradleyTrailerFragment())
+                                new ElianaPersonFragment())
                         .commit();
             }
 
