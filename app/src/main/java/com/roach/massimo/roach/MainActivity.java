@@ -149,7 +149,15 @@ public class MainActivity extends AppCompatActivity
                     .replace(R.id.content_frame,
                             new BradleyTrailerFragment())
                     .commit();
-        }
+        } else if (id == R.id.nav_ninth_layout) {
+                getSupportActionBar().setTitle(R.string.divider_eliana);
+                getSupportActionBar().setSubtitle(item.getTitle());
+                fragmentManager.beginTransaction()
+                        .replace(R.id.content_frame,
+                                new BradleyTrailerFragment())
+                        .commit();
+            }
+
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
