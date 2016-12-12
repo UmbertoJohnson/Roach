@@ -55,4 +55,12 @@
         </menu>
     </item>
 
+    <item android:title="@string/divider_eliana">
+        <menu>
+            <item
+            android:id="@+id/nav_tenth_layout"
+            android:icon="@drawable/ic_menu_personality"
+            android:title="@string/personality"/>
+        </menu>
+    </item>
 </menu>

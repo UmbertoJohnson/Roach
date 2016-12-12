@@ -1,57 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
+    android:padding="8dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_gray">
 
-    <TextView
-        android:text="Eliana Bissonnette Valenti"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView9"
-        android:layout_marginTop="15dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:fontFamily="sans-serif"
-        android:textSize="20sp" />
+        xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <TextView
-        android:text="AKA Busty Asian Chick"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView10"
-        android:layout_below="@+id/textView9"
-        android:layout_centerHorizontal="true"
-        android:textSize="15sp" />
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Card_View"
+            android:layout_height="55dp"
+            android:layout_width="fill_parent"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="4dp"
+            card_view:cardCornerRadius="2dp">
 
-    <RatingBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="159dp"
-        android:id="@+id/ratingBar"
-        android:layout_below="@+id/textView10"
-        android:layout_centerHorizontal="true" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-    <TextView
-        android:text="Fucking Cucks everywhere man, I'm telling you. Eliana is a very nice woman. She really wants to see her queen suceed in life."
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="31dp"
-        android:id="@+id/textView11"
-        android:textStyle="normal|bold"
-        android:textAlignment="center"
-        android:textSize="22sp"
-        android:layout_below="@+id/textView10"
-        android:layout_alignParentStart="true" />
+            </LinearLayout>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/eliana_selfie"
-        android:id="@+id/imageView5"
-        android:layout_marginTop="33dp"
-        android:layout_below="@+id/ratingBar"
-        android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Eliana Bisonette Valenti"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textAlignment="gravity"
+                android:id="@+id/textView9"
+                android:layout_marginTop="3dp"/>
 
-</RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="AKA Busty Asian Chick"
+                android:layout_gravity="center"
+                android:layout_marginTop="19dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="50dp">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="200dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Sexy Cocks"/>
+
+                    </android.support.v7.widget.CardView>
+
+
+
+                </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

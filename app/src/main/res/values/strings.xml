@@ -9,7 +9,8 @@
     <string name="action_settings">Settings</string>
 
     <string name="dont_look">Don\'t look here you Fuck</string>
-    <string name="massimo_roach">We all know Massimo\'s a Roach</string>
+    <string name="massimo_roach">Massimo is a fucking Roach!</string>
+    <string name="massimo_roach2">We all know Massimo\'s a Roach</string>
 
     <string name="divider_home">Home</string>
     <string name="divider_massimo">Massimo</string>
@@ -25,6 +26,7 @@
 
     <string name="bradley_identity">Bradley always used to be a little fucker. He would piss on principals, on the walls and also try to kill a few people. Ever since his rehabilitation at some fucked up school, he gained the ability to contact the G.P.S satellites orbiting the Earth. This resulted in him knowing where the fuck everyone in the world was. A couple years after he gained this ability, he went to train his legs with Usain Bolt. He quickly gained access to his main control centers and altered the maximum speed of which his legs can move.</string>
 
+    <color name="background_gray">#f1f1f1</color>
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

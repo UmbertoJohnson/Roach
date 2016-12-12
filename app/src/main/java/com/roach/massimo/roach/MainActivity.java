@@ -88,6 +88,7 @@ public class MainActivity extends AppCompatActivity
 
 
         if (id == R.id.nav_first_layout) {
+            getSupportActionBar().setTitle("Home");
             fragmentManager.beginTransaction()
                     .replace(R.id.content_frame,
                             new HomeFragment())
@@ -149,7 +150,7 @@ public class MainActivity extends AppCompatActivity
                     .replace(R.id.content_frame,
                             new BradleyTrailerFragment())
                     .commit();
-        } else if (id == R.id.nav_ninth_layout) {
+        } else if (id == R.id.nav_tenth_layout) {
                 getSupportActionBar().setTitle(R.string.divider_eliana);
                 getSupportActionBar().setSubtitle(item.getTitle());
                 fragmentManager.beginTransaction()
